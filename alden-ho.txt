@@ -1,0 +1,160 @@
+Link to finished codepen: https://codepen.io/aldenho52/pen/QWNqWKW
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    Semantic HTML is meaningful markup language such as header, footer, section, article, h1, etc. which provides meaning to the web page. This allows blind users, other developers, and even yourself understand your code. Also helps with SEO.
+
+    2. What is HTML used for? 
+    HTML is used to create the content and structure of your webpage. this includes titles, sections, paragraphs, images, and links.
+
+    3. What is an attribute and where do we put it? 
+    An attribute are words inputed in the open tag of an element. Attributes can be required for certain links and also can be identifiers like id and class.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 should be saved for the title of a web page and should only be used once.
+
+    5. Name two tags that have required attributes
+    img take requires a src attribute, and an anchor tag requires an href attribute.
+
+    6. What do we put in the head of our HTML document? 
+    We put the title of the html page which only we can see. We also include links to external documents such as a CSS or javascript link.
+
+    7. What is an id? 
+    An id is a highly specific attribute which should be used only once in an html document, and is often referred to by CSS for styling.
+
+    8. What elements can I add an id to? 
+    You can add an id to almost any element.
+
+    9. How many times can I use the same id on a page? 
+    You should only use an id once on a page.
+
+    10. What is a class? 
+    A class is a attribute placed in the opening tag of an element. It is used to select certain elements that pertain to a group which you can style or configure with CSS or JS.
+
+    11. What elements can I add a class to? 
+    You can add a class to most html elements.
+
+    12. How many times can I use the same class on a page? 
+    You can use a class as many times as you want on a page.
+
+    13. How do I get my link to open in a new tab?
+    you insert a target="_blank" attribute in the opening tag of your anchor element.
+
+    14. What is the alt attribute in the image tag used for? 
+    The alt attribute is used to insert text in case the image does not load properly. It also helps blind users with reading the web page.
+
+    15. How do I reference an id?
+    Use # followed by the id. Ex - #id {} 
+
+    16. What is the difference between a section and a div
+    Section and divs are both containers. The difference is sections are used to group "sections" of a web page together conveying meaning to a html document. A div is a generic container.
+
+    17. What is CSS used for? 
+    CSS is used for styling an html document. Adding certain fonts, colors, sizing are a few of the ways css helps decorate a web page.
+
+    18. How to we select an element? Example - every h2 on the page
+    We select an element with first stating the element, followed by curly brackets where we input our styling in.
+    Example: h2 {
+        font-size: 40px;
+    }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class is less specific than an id and can used multiple times throughout a page where as an id should only be used once. You can use an id for a certain section which you want unique properties. Classes can be used for say selecting a certain type of image in your page.
+
+    20. How do we select classes in CSS?
+    .class {
+
+    }
+
+    21. How do we select a p element with a single class of “human””?
+    p.class {}
+
+    22. What is a parent child selector? When would this be useful? 
+    placing two selectors in a row with the first being the parent such as p li. This would be useful in selecting a certain group of elements only under another group. A form of specializing.
+
+    23. How do you select all links within a div with the class of sidebar?
+    a.sidebar {
+
+    }
+
+    24. What is a pseudo selector?
+    A type of selector that selects elements in a specific state.
+
+    25. What do we use the change the spacing between lines?
+    line-height
+
+    26. What do we use to change the spacing between letters?
+    letter spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    border: 1px dotted black;
+
+    29. How do I select everything on the page? 
+    * {
+        style
+    }
+
+    30. How do I write a comment in CSS?
+    /* Insert comment here */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm file. Be careful because once removed it was never be recovered.
+
+    34. Why should I use version control? 
+    Version control helps you keep track of your work and allows more than one person to work on a project. Version controlling your code allows you to see where your code went wrong so you can debug it, and also provides communcation to other team members on what updates are included on a version and what you did.
+
+    35. How often should I commit to github?
+    You should commit to github very often and for most of your projects. It is a real world skill used by teams in work environments.
+
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin branch-name
+
+    37. Walk me through Lambda's git flow. 
+    1. First fork your project or assignment from Lambda.
+    2. Add collaborators to your repo as needed. Make sure to check it is your username (aldenho52/project-name) instead of Lambda.
+    3. copy the HTTPS link of your file.
+    4. Open your command line and create a directory for your project.
+    5. Go to your newly created directory using the cd command, then use git clone HTTPS link to clone your repo.
+    6. use the cd command again to enter your newly created repo and enter git checkout -b 'firstname-lastname' to create your own branch of this project.
+    7. Work on your project as needed, making sure to commit often using git add . followed by git commit -m 'your helpful commit message here'
+    8. Enter git push -u origin branch-name to push your commits from your local hard drive to the remote site of github.com
+    9. Check that your branch name on github was created, by clicking under the master tab and selecting branch-name.
+    10. Ensure your files were properly pushed. Now submit a pull request by clicking New Pull Request.
+    11. Make sure to change your base repository to your newly forked repository.
+    12. Add any TL or reviewers to the reviewers section on the sidebar before submitting the pull request.
+    13. Do not merge your own pull request! Your TL will merge the PR after they have done a review.
+    14. If further adjustments are to be made to the same repo, repeat the steps listed above. Note: no origin is required in the git push after the first git push.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    An inline element only takes as much space as the contents in it require. A block element takes up the entire width or height of a page unless specified. Inline elements can be found inside of block elements but block elements are not found in inline elements.
+
+    2. What happens when an element is positioned absolutely? 
+
+    When an element is positioned absolute, it is taken out of the document flow and no longer takes up space. Its position will be determined by its closest parent element or if there are no parent elements the browser window.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    display: inline-block;
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    block: h1, p, div
+    inline: em, span
+    inline-block: img
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    The box model describes how each box is 
+    The box model is how each element takes up space in our html web page. it simply means that every element you have is a box on your web page. Essentially, this means your web page is just a bunch of boxes. The size of each box is determined by its contents, border, padding, and margin. Block boxes will take up an entire row with the height serving as the row's height unless specified to become inline, which makes the box sized only as big as its contents needs. Each block box will stack under the previous, and inline boxes will accumulate on a row until space requires it to start a new row. You also have inline-block which have both inline and block properties. Inline-block boxes allow their boxes to act like an inline box by allowing them to be placed side by side, but also like a block by adjusting height and width.
+   --> 
